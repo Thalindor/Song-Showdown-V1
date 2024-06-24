@@ -21,7 +21,7 @@ export default function VideoPlayer(props) {
         if( cloudinaryRef.current ) return;
         cloudinaryRef.current = window.cloudinary;
         cloudinaryRef.current.videoPlayer( videoRef.current, {
-            cloud_name: ' ', // cloud name // 
+            cloud_name: '', // your cloud name goes here // 
             autoplay: true,
         })
     }, []);

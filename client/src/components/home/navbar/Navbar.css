@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.wwe-header-menu{
+    background-color: #222222;
+    padding: 0px 55px;
+    height: 60px;
+    
+}
+
+.wwe-header-navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0px;
+    
+
+}
+
+/* Desktop Menu Left  */
+.desktop-menu-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    color: #aaa;
+
+}
+
+.desktop-menu-left li{
+    list-style: none;
+    display: flex;
+    color: #fff;
+}
+
+
+.wwePng img{
+    height: 50px;
+    width: auto;
+    height: auto;
+    width: 50px;
+}
+
+/*- Desktop Menu Left  -*/
+
+/* Desktop Menu Center  */
+
+.desktop-menu-center{
+    display: flex;
+    list-style: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+/*- Desktop Menu Left  -*/
+
+
+/* Desktop Menu Right  */
+.desktop-menu-right {
+    display: flex;
+}
+
+.desktop-menu-right .Icon {
+    font-size: 32px;
+
+}
+
+.desktop-menu-right li {
+    display: flex;
+    list-style: none;
+    color: #fff;
+    margin: 0px 7px;
+    border-radius: 4px;
+}
+
+.desktop-menu-right li:hover{
+    background-color: #68656444;
+    
+}
+
+.desktop-menu-right .gitHubIcon{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    padding: 6px 12px;    
+    cursor: pointer;
+}
+
+.desktop-menu-right .gitHubIcon h3{
+    font-size: 18px;    
+}
+.desktop-menu-right .desktop-menu-Icons{
+    padding: 6px;
+    transform: scaleX(-1);
+}
+
+/*- Desktop Menu Right  -*/

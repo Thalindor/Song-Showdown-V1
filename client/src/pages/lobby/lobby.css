@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.lobby-container{
+    background-color: #141516;
+    height: 100vh;
+}
+
+.lobby-container-content{
+    padding: 15px 40px;
+
+}
+
+/* Lobby Container Top */
+
+
+.lobby-container-top img{
+    height: 50px;
+    width: auto;
+    height: auto;
+    width: 50px;
+}
+
+.lobby-container-top ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.lobby-top-configure{
+    font-size: 40px;
+    font-family: monospace;
+    font-weight: bold;
+
+}
+
+.lobby-top-back{
+    font-size: 28px;
+    font-family: monospace;
+    letter-spacing: -0.22em;
+    color: #c31818;
+    font-weight: bold;
+
+}
+/*- Lobby Container Top -*/
+
+/* Lobby Container Center  */
+.lobby-container-center{
+    margin: 12vh 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lobby-container-center-content{
+    display: flex;
+    gap: 4rem;
+}
+/*- Lobby Container Center  -*/
+
+/* Lobby Container Center Left */
+
+.lobby-container-center-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+    width: 300px;
+    padding: 0 35px;
+}
+
+.invateCode{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.invateCode .invateCodeh3 h3{
+    float: left;
+    color: #fff;
+}
+
+.players{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    gap: 32px;
+
+}
+
+.lobby-player-img{
+    height: 100px;
+    width: auto;
+    height: auto;
+    width: 100px;
+    border: #fff 5px solid ;
+    border-radius: 50%;
+}
+
+.player1-img{
+    background-color: #c31818;
+
+}
+
+.player2-img{
+    background-color: #0072CE;
+
+}
+
+
+.invateCode button{
+    padding: 0.4375rem 1.8125rem;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    border: solid 3px #fff;
+    background-color: transparent;
+    color: #fff;
+    
+}
+
+.invateCode button:hover{
+    background-color: #272829;
+}
+
+.invateCode button:active{
+    transform: scale(.95);
+}
+
+.invateCode-copy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    gap: 5px;
+    margin-top: 8px;
+    visibility: hidden;
+}
+
+.invateCode-copy.active{
+    visibility: visible;
+}
+/*- Lobby Container Center Left  -*/
+
+/* Lobby Container Center Right */
+
+.lobby-container-center-right-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.lobby-container-center-right{
+    width: 35vw;
+    height: 50vh;
+    background-color: #fff;
+    border-radius: 10px;
+    border: #0072CE 5px solid;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.game-rules-container{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.lobby-container-center-button{
+    position: absolute;
+    bottom: -24px;
+    right: 50px;
+}
+
+.lobby-container-center-button button{
+    padding: 0.4375rem 1.8125rem;
+    width: 175px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #0072CE;
+    color: #fff;
+    gap: 4px;
+}
+
+.lobby-container-center-button button:active{
+    transform: scale(.95);
+}
+
+
+.game-rules-top{
+    display: flex;
+    gap: 12px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.game-rules-center{
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.game-rules-center ul{
+    list-style: none;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.game-rules-center ul li{
+    display: flex;
+    gap: 3px;
+}
+
+.game-rules-bottom{
+    margin-bottom: 50px;
+}
+
+
+.game-rules-bottom-content{
+    display: flex;
+    gap: 10px;
+    margin-top: 60px;
+    justify-content: space-between;
+
+}
+
+.game-rules-speed-choice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+
+
+.games-rules-speed span{
+    font-weight: bold;
+    font-size: 12px;
+    padding: 6px;
+    
+}
+
+.slow-span{
+    border-radius: 5px 0 0 5px ;
+    border-top: #141516 1px solid;
+    border-left: #141516 1px solid;
+    border-bottom: #141516 1px solid;
+}
+
+.normal-span{
+    background-color: #0072CE;
+    border-top: #141516 1px solid;
+    border-bottom: #141516 1px solid;
+    color: #fff;
+
+    
+}
+
+.fast-span{
+    border-radius: 0 5px 5px 0;
+    border-top: #141516 1px solid;
+    border-right: #141516 1px solid;
+    border-bottom: #141516 1px solid;
+}
+
+.games-rules-question{
+    display: flex;
+    gap: 15px;
+}
+
+.question-counter{
+    display: flex;
+    gap: 12px;
+}
+
+.question-counter p{
+    font-weight: bold;
+    font-size: 13px;
+
+}
+
+.guest{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
+.guestIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.guest h1{
+    color: #fff;
+    font-size: 20px;
+}
+/*- Lobby Container Center Right  -*/

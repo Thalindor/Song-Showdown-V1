@@ -3,3 +3,18 @@ Inspired by the Songtrivia2 game, I developed my own song guessing game. To lear
 
 [A video demonstrating how the application works and appears on screen.](https://youtu.be/VO_6zhtz4v0)
 
+The game can be played solo or with two players. Players can create a game by selecting a profile picture and username, or they can join a friend's room using an invitation code.
+
+- Once the game starts, players must try to guess the playing song within 10 seconds.
+- After guessing, a 30-second video of the artist who owns the song is played.
+- Each game consists of 5 questions, and the game ends with a scoreboard after the 5th question.
+
+Some screenshots from the game:
+
+
+
+
+
+
+
+![Screenshot_1](https://github.com/tynansylvester23999/Song-Showdown-V1/assets/158298979/26f2dd41-ab3c-4f44-9591-10858501ef85)
